@@ -125,7 +125,25 @@
 // const diff = grapes - apples;
 // console.log(diff);
 //15. Замінити вираз перевизначення комбінованим оператором `+=`.
+// let students = 100;
+// students = students + 50;
+// console.log(students);
 
-let students = 100;
-students = students + 50;
-console.log(students);
+// let students = 100;
+// students += 50;
+// console.log(students);
+
+//16. Розбери пріоритет операторів в інструкції визначення значення змінної
+//`result`.
+
+// const result = 108 + 223 - 2 * 5;
+// console.log(result);
+//17.Склади фразу за допомогою шаблонних рядків `A has B bots in stock`, де A, B -
+// змінні вставлені у рядок.
+
+// const companyName = "Cyberdyne Systems";
+// const repairBots = 150;
+// const defenceBots = 50;
+// let totalBots = repairBots + defenceBots;
+// const message = `${companyName} has ${totalBots} bots in stock`;
+// console.log(message); // "Cyberdyne Systems has 200 bots in stock"
